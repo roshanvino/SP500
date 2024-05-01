@@ -9,4 +9,6 @@ stocks = pd.read_csv("../sp_500_stocks.csv")
 print(stocks)
 
 # Acquiring an API Token
+from secrets import IEX_CLOUD_API_TOKEN
+
 
